@@ -11,3 +11,7 @@ else:
 
 
 #.\venv\Scripts\Activate.ps1
+
+#git add .
+#git commit -m ""
+#git push
