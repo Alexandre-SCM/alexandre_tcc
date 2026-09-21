@@ -1,0 +1,79 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{csquotes}
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage[round]{natbib}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+% Dados do trabalho: preencha os campos abaixo.
+\newcommand{\instituicao}{Nome da instituição}
+\newcommand{\curso}{Nome do curso}
+\newcommand{\autorTCC}{Nome do autor}
+\newcommand{\tituloTCC}{Título do trabalho}
+\newcommand{\cidadeTCC}{Cidade}
+\newcommand{\anoTCC}{\the\year}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue,
+    plainpages=false,
+    pdftitle={\tituloTCC},
+    pdfauthor={\autorTCC}
+}
+
+\title{\tituloTCC}
+\author{\autorTCC}
+\date{\anoTCC}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\begin{titlepage}
+    \centering
+    {\large \instituicao\par}
+    \vspace{1.5cm}
+    {\Large \autorTCC\par}
+    \vspace{2cm}
+    {\LARGE \bfseries \tituloTCC\par}
+    \vspace{2cm}
+    {\large Trabalho de Conclusão de Curso apresentado ao curso de \curso.\par}
+    \vfill
+    {\large \cidadeTCC\par}
+    {\large \anoTCC\par}
+\end{titlepage}
+
+\clearpage
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+
+\subimport{capitulos/}{01_introducao.tex}
+\subimport{capitulos/}{02_revisao_literatura.tex}
+\subimport{capitulos/}{03_metodologia.tex}
+\subimport{capitulos/}{04_base_dados_estrategia.tex}
+\subimport{capitulos/}{05_resultados.tex}
+\subimport{capitulos/}{06_conclusao.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{referencias}
+
+\end{document}
