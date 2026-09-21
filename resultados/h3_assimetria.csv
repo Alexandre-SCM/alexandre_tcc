@@ -1,0 +1,4 @@
+Choque,efeito_acum_h8,IC_inf,IC_sup,significativo,p-valor Wald
+Selic_Alta,-53.195758294920914,-82.90261437876772,-30.54324999662965,True,
+Selic_Queda,-30.71206009293625,-56.554867776383844,-10.119825975365185,True,
+Wald: Alta = Queda (eq. N_MA),,,,False,0.4623744860205344
