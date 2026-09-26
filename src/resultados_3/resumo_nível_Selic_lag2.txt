@@ -1,0 +1,58 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   N_MA   R-squared:                       0.392
+Model:                            OLS   Adj. R-squared:                  0.316
+Method:                 Least Squares   F-statistic:                     5.158
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):            0.00253
+Time:                        00:23:45   Log-Likelihood:                -157.19
+No. Observations:                  37   AIC:                             324.4
+Df Residuals:                      32   BIC:                             332.4
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         90.2805     20.829      4.334      0.000      47.853     132.708
+N_MA_lag1      0.0575      0.184      0.312      0.757      -0.318       0.433
+Selic_lag    -42.2708     14.379     -2.940      0.006     -71.561     -12.981
+Ibov_Ret      -0.0609      0.185     -0.329      0.745      -0.439       0.317
+Covid          4.9376     13.928      0.355      0.725     -23.432      33.307
+==============================================================================
+Omnibus:                        1.218   Durbin-Watson:                   1.937
+Prob(Omnibus):                  0.544   Jarque-Bera (JB):                0.932
+Skew:                           0.383   Prob(JB):                        0.627
+Kurtosis:                       2.871   Cond. No.                         528.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Erros-padrão HAC (Newey-West) ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   N_MA   R-squared:                       0.392
+Model:                            OLS   Adj. R-squared:                  0.316
+Method:                 Least Squares   F-statistic:                     7.030
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):           0.000352
+Time:                        00:23:45   Log-Likelihood:                -157.19
+No. Observations:                  37   AIC:                             324.4
+Df Residuals:                      32   BIC:                             332.4
+Df Model:                           4                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         90.2805     26.613      3.392      0.002      36.072     144.489
+N_MA_lag1      0.0575      0.188      0.305      0.762      -0.326       0.441
+Selic_lag    -42.2708     18.189     -2.324      0.027     -79.321      -5.221
+Ibov_Ret      -0.0609      0.170     -0.359      0.722      -0.407       0.285
+Covid          4.9376     19.320      0.256      0.800     -34.416      44.291
+==============================================================================
+Omnibus:                        1.218   Durbin-Watson:                   1.937
+Prob(Omnibus):                  0.544   Jarque-Bera (JB):                0.932
+Skew:                           0.383   Prob(JB):                        0.627
+Kurtosis:                       2.871   Cond. No.                         528.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
