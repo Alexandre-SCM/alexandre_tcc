@@ -1,0 +1,62 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   N_MA   R-squared:                       0.550
+Model:                            OLS   Adj. R-squared:                  0.412
+Method:                 Least Squares   F-statistic:                     3.973
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):             0.0255
+Time:                        00:28:27   Log-Likelihood:                -82.417
+No. Observations:                  18   AIC:                             174.8
+Df Residuals:                      13   BIC:                             179.3
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        192.4829     44.454      4.330      0.001      96.445     288.521
+N_MA_lag1      0.0003      0.208      0.002      0.999      -0.450       0.451
+Selic_lag    -89.4173     32.638     -2.740      0.017    -159.928     -18.906
+Ibov_Ret      -0.2517      0.271     -0.927      0.371      -0.838       0.335
+Covid          8.3320     29.988      0.278      0.786     -56.452      73.116
+==============================================================================
+Omnibus:                        0.263   Durbin-Watson:                   1.394
+Prob(Omnibus):                  0.877   Jarque-Bera (JB):                0.339
+Skew:                          -0.238   Prob(JB):                        0.844
+Kurtosis:                       2.526   Cond. No.                     1.02e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.02e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--- Erros-padrão HAC (Newey-West) ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   N_MA   R-squared:                       0.550
+Model:                            OLS   Adj. R-squared:                  0.412
+Method:                 Least Squares   F-statistic:                     30.90
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):           1.58e-06
+Time:                        00:28:27   Log-Likelihood:                -82.417
+No. Observations:                  18   AIC:                             174.8
+Df Residuals:                      13   BIC:                             179.3
+Df Model:                           4                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        192.4829     42.154      4.566      0.001     101.414     283.552
+N_MA_lag1      0.0003      0.145      0.002      0.998      -0.314       0.314
+Selic_lag    -89.4173     31.413     -2.846      0.014    -157.282     -21.553
+Ibov_Ret      -0.2517      0.193     -1.304      0.215      -0.669       0.165
+Covid          8.3320     12.371      0.674      0.512     -18.393      35.057
+==============================================================================
+Omnibus:                        0.263   Durbin-Watson:                   1.394
+Prob(Omnibus):                  0.877   Jarque-Bera (JB):                0.339
+Skew:                          -0.238   Prob(JB):                        0.844
+Kurtosis:                       2.526   Cond. No.                     1.02e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+[2] The condition number is large, 1.02e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
