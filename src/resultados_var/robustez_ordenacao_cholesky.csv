@@ -1,0 +1,53 @@
+ordenação,horizonte (meses),resposta log(N_MA) a choque +1dp em ΔSelic
+Original (M&A mais exógeno),0,0.0
+Original (M&A mais exógeno),1,-0.04611007260794508
+Original (M&A mais exógeno),2,0.04048104924134966
+Original (M&A mais exógeno),3,-0.027115762547668638
+Original (M&A mais exógeno),4,0.021061640874826044
+Original (M&A mais exógeno),5,-0.0036827422317422093
+Original (M&A mais exógeno),6,-0.0028981717191728326
+Original (M&A mais exógeno),7,0.00286391335353183
+Original (M&A mais exógeno),8,-0.0003545880211901633
+Original (M&A mais exógeno),9,0.0006821306540459699
+Original (M&A mais exógeno),10,-0.0005212292898680454
+Original (M&A mais exógeno),11,8.785809459831937e-05
+Original (M&A mais exógeno),12,0.0002749612851178566
+Selic mais exógena (padrão na literatura de choque monetário),0,0.11607166270323437
+Selic mais exógena (padrão na literatura de choque monetário),1,-0.004807272268560381
+Selic mais exógena (padrão na literatura de choque monetário),2,0.06983076696399673
+Selic mais exógena (padrão na literatura de choque monetário),3,-0.005728796237930321
+Selic mais exógena (padrão na literatura de choque monetário),4,0.03144546193865089
+Selic mais exógena (padrão na literatura de choque monetário),5,0.005410995539706022
+Selic mais exógena (padrão na literatura de choque monetário),6,0.0006571880229501871
+Selic mais exógena (padrão na literatura de choque monetário),7,0.005730370873890279
+Selic mais exógena (padrão na literatura de choque monetário),8,0.0016865620007478503
+Selic mais exógena (padrão na literatura de choque monetário),9,0.0017111203996258545
+Selic mais exógena (padrão na literatura de choque monetário),10,0.00015631737938604453
+Selic mais exógena (padrão na literatura de choque monetário),11,0.0004614939970720607
+Selic mais exógena (padrão na literatura de choque monetário),12,0.0005755542498930494
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",0,0.10563034518985519
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",1,-0.043604593529240676
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",2,0.05134260347483534
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",3,-0.0005525334484923135
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",4,0.02942900672215341
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",5,-0.000528505270709706
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",6,-0.002173342163706072
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",7,0.006277215779284247
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",8,0.0017840375086070144
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",9,0.0006691046171535867
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",10,-0.0003104787771419511
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",11,0.0005773767820570668
+"Atividade econômica primeiro (Selic reage à economia, M&A reage a ambas)",12,0.0006030177740151513
+Mercado financeiro primeiro (Ibovespa mais exógeno),0,0.11788833203595814
+Mercado financeiro primeiro (Ibovespa mais exógeno),1,-0.00483255261605917
+Mercado financeiro primeiro (Ibovespa mais exógeno),2,0.07285694366422374
+Mercado financeiro primeiro (Ibovespa mais exógeno),3,-0.0037041348770068673
+Mercado financeiro primeiro (Ibovespa mais exógeno),4,0.03165756740292682
+Mercado financeiro primeiro (Ibovespa mais exógeno),5,0.005347390302928122
+Mercado financeiro primeiro (Ibovespa mais exógeno),6,0.0007849180692219791
+Mercado financeiro primeiro (Ibovespa mais exógeno),7,0.006121098042540307
+Mercado financeiro primeiro (Ibovespa mais exógeno),8,0.001769306269115877
+Mercado financeiro primeiro (Ibovespa mais exógeno),9,0.0016585162396059458
+Mercado financeiro primeiro (Ibovespa mais exógeno),10,0.00018754400060073945
+Mercado financeiro primeiro (Ibovespa mais exógeno),11,0.0005157904932620046
+Mercado financeiro primeiro (Ibovespa mais exógeno),12,0.000592579899758724
