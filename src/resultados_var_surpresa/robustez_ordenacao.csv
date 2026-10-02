@@ -1,0 +1,53 @@
+ordenação,horizonte (meses),resposta log(N_MA) a choque +1dp em Selic-surpresa
+Original (M&A mais exógeno),0,0.0
+Original (M&A mais exógeno),1,-0.009806184001498177
+Original (M&A mais exógeno),2,-0.02600477225639713
+Original (M&A mais exógeno),3,0.011899096127958149
+Original (M&A mais exógeno),4,0.03885950165239175
+Original (M&A mais exógeno),5,0.0753878695329047
+Original (M&A mais exógeno),6,-0.010346676540713586
+Original (M&A mais exógeno),7,0.03316953860206854
+Original (M&A mais exógeno),8,0.008126555802248006
+Original (M&A mais exógeno),9,0.0017377666075742285
+Original (M&A mais exógeno),10,-0.0036527620867656853
+Original (M&A mais exógeno),11,0.006749324382595682
+Original (M&A mais exógeno),12,0.011309526003107483
+Surpresa mais exógena,0,0.019161668634407377
+Surpresa mais exógena,1,-0.006120341045210448
+Surpresa mais exógena,2,-0.024314888182608723
+Surpresa mais exógena,3,0.015143563467854095
+Surpresa mais exógena,4,0.04269519235205195
+Surpresa mais exógena,5,0.07833884710618351
+Surpresa mais exógena,6,-0.008965790682053396
+Surpresa mais exógena,7,0.03666400175676864
+Surpresa mais exógena,8,0.010850469284377854
+Surpresa mais exógena,9,0.002967706851713777
+Surpresa mais exógena,10,-0.0032132666929566966
+Surpresa mais exógena,11,0.008072203243202292
+Surpresa mais exógena,12,0.013401947268865321
+Atividade econômica primeiro,0,0.018390634511789697
+Atividade econômica primeiro,1,-0.006138154430223427
+Atividade econômica primeiro,2,-0.025097967393096998
+Atividade econômica primeiro,3,0.015110638748883689
+Atividade econômica primeiro,4,0.042672696505331544
+Atividade econômica primeiro,5,0.07785218224276713
+Atividade econômica primeiro,6,-0.008645345463917382
+Atividade econômica primeiro,7,0.03727482376719132
+Atividade econômica primeiro,8,0.011018682868197799
+Atividade econômica primeiro,9,0.0026423247437042836
+Atividade econômica primeiro,10,-0.0031868606848353743
+Atividade econômica primeiro,11,0.008195147075758375
+Atividade econômica primeiro,12,0.013407702249158574
+Mercado financeiro primeiro,0,0.017135586863412152
+Mercado financeiro primeiro,1,-0.00900605018709435
+Mercado financeiro primeiro,2,-0.031173609278426877
+Mercado financeiro primeiro,3,0.010067077255536992
+Mercado financeiro primeiro,4,0.03362377504793174
+Mercado financeiro primeiro,5,0.07280782056876242
+Mercado financeiro primeiro,6,-0.012123670376375677
+Mercado financeiro primeiro,7,0.03251656249051312
+Mercado financeiro primeiro,8,0.011191897522976122
+Mercado financeiro primeiro,9,0.0014988412823323124
+Mercado financeiro primeiro,10,-0.005873359926273496
+Mercado financeiro primeiro,11,0.00605508044695439
+Mercado financeiro primeiro,12,0.011642968239773246
