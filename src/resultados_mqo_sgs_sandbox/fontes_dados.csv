@@ -1,0 +1,7 @@
+,série,origem usada,início,fim,n obs.
+meta_selic,SGS 432,cache legado dados_focus (download falhou: falha ao baixar https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/01/2003&dataFinal=31),2004-12-22 00:00:00,2025-01-10 00:00:00,7325
+ipca,SGS 433,*** FALLBACK PLANILHA: IPCA mensal da planilha (cópia do SGS 433) *** (download falhou: falha ao baixar https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2003&dataFinal=31),1980-01-01 00:00:00,2026-04-01 00:00:00,556
+ibc_br_sa,SGS 24364,*** FALLBACK PLANILHA: IBC-Br da planilha = SGS 24363 SEM ajuste sazonal (o código usa 24364 com ajuste) *** (download falhou: falha ao baixar https://api.bcb.gov.br/dados/serie/bcdata.sgs.24364/dados?formato=json&dataInicial=01/01/2003&dataFinal=),2003-01-01 00:00:00,2026-03-01 00:00:00,279
+cambio,SGS 3695,INDISPONÍVEL (sem download nem cache) — controle dCambio omitido,,,0
+ibovespa,B3 (planilha),planilha Macro_Controls — não é SGS,2003-01-01 00:00:00,2024-12-01 00:00:00,264
+iie_br,FGV (planilha),planilha Macro_Controls — não é SGS,2000-01-01 00:00:00,2026-04-01 00:00:00,316
