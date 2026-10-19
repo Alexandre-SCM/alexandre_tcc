@@ -1,0 +1,8 @@
+,série,origem usada,início,fim,n obs.
+meta_selic,SGS 432,download ao vivo (API BCB),2003-01-01 00:00:00,2026-11-04 00:00:00,8709
+ipca,SGS 433,download ao vivo (API BCB),2003-01-01 00:00:00,2026-09-01 00:00:00,285
+ibc_br_sa,SGS 24364,download ao vivo (API BCB),2003-01-01 00:00:00,2026-08-01 00:00:00,284
+cambio,SGS 3695,download ao vivo (API BCB),2003-01-01 00:00:00,2026-09-01 00:00:00,285
+ibovespa,B3 (planilha),planilha Macro_Controls — não é SGS,2003-01-01 00:00:00,2024-12-01 00:00:00,264
+iie_br,FGV (planilha),planilha Macro_Controls — não é SGS,2000-01-01 00:00:00,2026-04-01 00:00:00,316
+stringency,OxCGRT,stringency_brasil_mensal.csv (média mensal já extraída de Stringency_index.csv),2020-01-01 00:00:00,2022-12-01 00:00:00,36

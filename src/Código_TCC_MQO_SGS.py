@@ -93,6 +93,8 @@ CACHE_LEGADO_META = BASE / "dados_focus" / "selic_meta_sgs432.csv"   # baixado p
 DEAL_MIN_USD_MM = 0.5
 PCT_MIN = 50.0
 REMOVER_DUPLICATAS = False
+# duplicidades conferidas na fonte (linhas idênticas): mantém-se uma ocorrência de cada (2.292 -> 2.290)
+IDS_DUPLICADOS = ["706879MM", "734331MM"]
 
 INICIO, FIM = "2005-01", "2024-12"
 MAX_LAG = 12
@@ -223,6 +225,9 @@ def aplicar_filtros(df, deal_min=DEAL_MIN_USD_MM, pct_min=PCT_MIN, dedup=REMOVER
     if pct_min is not None:
         m &= df["pct"] > pct_min
     out = df[m].copy()
+    # remove só a 2ª ocorrência dos IDs conferidos, e apenas se a linha for idêntica à 1ª
+    rep = out["Deal ID"].isin(IDS_DUPLICADOS) & out.duplicated(keep="first")
+    out = out[~rep]
     if dedup:
         out = out.drop_duplicates(["Company Name (Target/Issuer)", "Announcement Date", "valor"])
     return out
