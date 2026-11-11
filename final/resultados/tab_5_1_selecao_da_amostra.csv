@@ -1,0 +1,6 @@
+etapa,criterio,excluidas,restantes
+0,"Extração: M&A concluídos, alvo no Brasil, 2005 a 2024",,8097
+1,Valor da operação divulgado,4906.0,3191
+2,"Valor superior a US$ 0,5 milhão",141.0,3050
+3,Participação buscada superior a 50% do capital,758.0,2292
+4,Exclusão de registros duplicados,2.0,2290

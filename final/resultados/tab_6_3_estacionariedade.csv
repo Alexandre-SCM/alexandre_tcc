@@ -1,0 +1,6 @@
+variavel,ADF p,"KPSS p (limitado a 0,10)",resultado_5%
+ln(MA),0.0005509289042507863,0.07372990597941767,Estacionária
+Selic (nível),0.008874928965880385,0.06860171595898384,Estacionária
+Variação da Selic,0.004445504709067331,0.1,Estacionária
+RetIbov,1.1279275548371571e-24,0.1,Estacionária
+ΔIBC,8.281456848695674e-19,0.1,Estacionária

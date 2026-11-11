@@ -46,3 +46,7 @@ __pycache__/
 
 #virtualenv
 .venv/
+# Base da FactSet: licença institucional de uso restrito — NUNCA versionar
+final/dados/factset/*
+!final/dados/factset/LEIA-ME.md
+*.xlsx
