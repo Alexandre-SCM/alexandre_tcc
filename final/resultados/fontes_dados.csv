@@ -1,0 +1,7 @@
+,série,origem usada,início,fim,n obs.
+meta_selic,SGS 432,série versionada em dados/sgs (execução final),2003-01-01 00:00:00,2026-11-04 00:00:00,8709
+ipca,SGS 433,série versionada em dados/sgs (execução final),2003-01-01 00:00:00,2026-09-01 00:00:00,285
+ibc_br_sa,SGS 24364,série versionada em dados/sgs (execução final),2003-01-01 00:00:00,2026-08-01 00:00:00,284
+cambio,SGS 3695,série versionada em dados/sgs (execução final),2003-01-01 00:00:00,2026-09-01 00:00:00,285
+Ibov_Nivel,B3,dados/macro_controls.csv,2003-01-01 00:00:00,2024-12-01 00:00:00,264
+IIE_Br,FGV IBRE,dados/macro_controls.csv,2000-01-01 00:00:00,2026-04-01 00:00:00,316
